@@ -1,0 +1,23 @@
+#img {
+    margin-top: 10px!important;
+    width: calc(300px - 70%);
+    height: calc(390px - 70%);
+    border-radius: 20px;
+    margin: auto;
+}
+
+#cardPortras {
+    background-color: #ffffff;
+    height: 277px;
+    width: 200px;
+    margin-left: calc(100% - 93.7%);
+}
+
+#card-pessoa {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#titulo {
+    text-align: center;
+}
