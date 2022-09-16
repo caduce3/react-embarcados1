@@ -1,13 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
+
+import BotaoSucesso from './Components/BotaoSucesso/BotaoSucesso';
+import BotaoDanger from './Components/BotaoDanger/BotaoDanger';
+
+import './geral.css'
 
 function App() {
+
   return (
     <div>
-      <Header/>
-      <Main/>
-      
+      <form id='parte3'>
+        <h2>BOTÕES</h2>
+        <BotaoSucesso ></BotaoSucesso>
+        <BotaoDanger></BotaoDanger>
+      </form>
     </div>
   );
 }
